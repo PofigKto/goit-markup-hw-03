@@ -1,0 +1,193 @@
+:root {
+--primary-font-family: 'Roboto', sans-serif;
+--secondary-font-family: 'Raleway', sans-serif;
+--primary-section-color-theme-light: #FFFFFF;
+--secondary-section-color-theme-light: #F5F4FA;
+--primary-section-color-theme-dark: #2F303A;
+--primary-text-color-theme-dark: #212121;
+--primary-text-color-theme-light: #757575;
+--accent-color: #2196F3;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {display: block;}
+
+.modal {
+    cursor: pointer;
+}
+
+body {
+    font-family: var(--primary-font-family);
+}
+/*==================section background colors================*/
+.hero {
+    background-color: var(--primary-section-color-theme-dark);
+}
+.preview {
+    background-color: var(--primary-section-color-theme-light);
+}
+.team-masters {
+    background-color: var(--secondary-section-color-theme-light);
+}
+.masters {
+    background-color: var(--primary-section-color-theme-light);
+}
+.footer {
+    background-color: var(--primary-section-color-theme-dark);
+}
+/*====================text styling studio===================*/
+.menu-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color-theme-dark);
+}
+.mail-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color-theme-light);
+}
+.phone-number-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color-theme-light)
+}
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.preview-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color-theme-dark);
+}
+.preview-text {
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color-theme-light);
+}
+.caption-studia,
+.caption {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color-theme-dark);
+}
+.subject {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-dark);
+}
+.desc {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+}
+.adress-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+}
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--accent-color);
+}
+.logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-dark);
+}
+.accent {
+    color: var(--accent-color);
+}
+.logo-footer {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+/*==================text styling portfolio=============*/
+.caption-portfolio {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--primary-text-color-theme-dark);
+}
+.text-portfolio {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+}
+/*====================Components====================*/
+.modal {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color-theme-dark);
+}
+.modal:hover,
+.modal:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+.mail-link:hover,
+.mail-link:focus {
+    color: var(--accent-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+.phone-number-link:hover,
+.phone-number-link:focus {
+    color: var(--accent-color);
+}
