@@ -69,8 +69,6 @@ body {
         line-height: 1.1;
         letter-spacing: 0.02em;
         color: var(--primary-text-color-theme-light);
-        margin-right: 50px;
-        margin-left: 331px;
 }
 .phone-number-link {
         font-weight: 500;
@@ -80,7 +78,7 @@ body {
         color: var(--primary-text-color-theme-light)
 }
 .main-title {
-    font-weight: 900;
+    width: 900;
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
@@ -88,6 +86,12 @@ body {
     text-align: center;
     margin-bottom: 30px;
     color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero {
+    padding: 200px 0;
+    text-align: center;
 }
 .preview-title {
     font-weight: 700;
@@ -112,6 +116,9 @@ body {
         letter-spacing: 0.03em;
         color: var(--primary-text-color-theme-dark);
 }
+.caption {
+    margin-bottom: 50px;
+}
 .subject {
     font-weight: 500;
     font-size: 16px;
@@ -131,6 +138,7 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--primary-text-color-theme-light);
+    color: #FFFFFF;
 }
 .adress-link:hover,
 .adress-link:focus {
@@ -153,7 +161,13 @@ body {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #FFFFFF; 
+}
+.footer-contacts-list {
+    margin-top: 20px;
+}
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 /*==================text styling portfolio=============*/
 .caption-portfolio {
@@ -162,20 +176,54 @@ body {
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--primary-text-color-theme-dark);
+        margin-bottom: 4px;
 }
 .text-portfolio {
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.8;
     letter-spacing: 0.03em;
     color: var(--primary-text-color-theme-light);
 }
 /*====================Components====================*/
+.section {
+    padding: 94px 0;
+}
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.work-section {
+    padding-top: 0;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
 .modal {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.06em;
     color: var(--primary-text-color-theme-dark);
+}
+.modal-hero {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
 }
 .modal:hover,
 .modal:focus {
@@ -215,6 +263,10 @@ body {
 }
 .contacts-list {
     display: flex;
+    margin-left: auto;
+}
+.phone-number-list{
+    margin-left: 50px;
 }
 .logo {
     margin-right: 93px;
@@ -228,8 +280,6 @@ body {
 }
 .preview-list {
     display: flex;
-    margin-top: 94px;
-    margin-bottom: 179px;
 }
 .preview-title {
     margin-bottom: 10px;
@@ -243,7 +293,6 @@ body {
 .futures-list {
     display: flex;
     align-items: center;
-    margin-bottom: 94px;
 }
 .futures-text-list:not(:last-child) {
     margin-right: 30px;
@@ -254,9 +303,13 @@ body {
 .masters:not(:last-child) {
 margin-right: 30px;
 }
-.card-subject-igor-wrapper {
-    border: 1px solid #FFFFFF;
-    border-top: none;       
+.card-subject-wrapper {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;   
+}
+.subject {
+    margin-bottom: 10px;
 }
 /*===========containers and flax portfolio============*/
 .button-portfolio {
@@ -264,16 +317,20 @@ margin-right: 30px;
 }
 .modal-list {
     display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
-.list-button-portfolio {
-    justify-content: space-between;
-}
-.container-cards-portfolio {
-    display: flex;
+.list-button-portfolio:not(:last-child) {
+    margin-right: 8px;
 }
 .main-portfolio-list {
     display: flex;
     flex-wrap: wrap;
+}
+.card-container-portfolio {
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 .card-list-portfolio {
     margin-right: 30px;

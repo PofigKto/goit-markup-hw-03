@@ -30,21 +30,22 @@
             </nav>
             <ul class="contacts-list list">
                 <li><a href="mailto" class="mail-link link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="phone-number-link link">+38 096 111 11 11</a></li>
+                <li class="phone-number-list"><a href="tel:+380961111111" class="phone-number-link link">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
-    <main class="main-text">
+    <main>
         <section class="hero">
             <!--главный заголовок + кнопка-->
-            <div class="container container-hero">
+            <div class="container">
                 <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
                 <button type="button" class="modal modal-hero">Заказать услугу</button>
             </div>
                 
             </section>
-        <section class="preview">
-            <div class="container-preview container">
+        <section class="section">
+            <div class="container">
+                <h2 class="visually-hidden">Наши приимущества</h2>
                 <ul class="preview-list list">
                     <li class="preview-text-list">
                         <h3 class="preview-title">Внимание к деталям</h3>
@@ -66,8 +67,8 @@
             </div>
             
         </section>
-        <section>
-            <div class="container-caption-studia container">
+        <section class="section work-section">
+            <div class="container">
                 <h2 class="caption-studia">Чем мы занимаемся</h2>
                 <ul class="futures-list list">
                     <li class="futures-text-list">
@@ -83,14 +84,14 @@
             </div>
             
         </section>
-        <section class="team-masters">
+        <section class="team-masters section">
             <!--Masters-->
-            <div class="container-masters container">
+            <div class="container">
                 <h2 class="caption">Наша команда</h2>
                 <ul class="list-masters list">
                     <li class="masters">
                         <img src="./images/masters/igor.jpg" alt="Игорь" width="270" height="260" />
-                        <div class="card-subject-igor-wrapper">
+                        <div class="card-subject-wrapper">
                             <h3 class="subject">Игорь Демьяненко</h3>
                             <p lang="en" class="desc">Product Designer</p>
                         </div>
@@ -98,21 +99,27 @@
                     </li>
                     <li class="masters">
                         <img src="./images/masters/olga.jpg" alt="Ольга" width="270" height="260" />
-
-                        <h3 class="subject">Ольга Репина</h3>
-                        <p lang="en" class="desc">Frontend Developer</p>
+                        <div class="card-subject-wrapper">
+                            <h3 class="subject">Ольга Репина</h3>
+                            <p lang="en" class="desc">Frontend Developer</p>
+                        </div>
+                        
                     </li>
                     <li class="masters">
                         <img src="./images/masters/nikolai.jpg" alt="Николай" width="270" height="260" />
-
-                        <h3 class="subject">Николай Тарасов</h3>
-                        <p lang="en" class="desc">Marketing</p>
+                        <div class="card-subject-wrapper">
+                            <h3 class="subject">Николай Тарасов</h3>
+                            <p lang="en" class="desc">Marketing</p>
+                        </div>
+                        
                     </li>
                     <li class="masters">
                         <img src="./images/masters/mikhail.jpg" alt="Михаил" width="270" height="260" />
-
-                        <h3 class="subject">Михаил Ермаков</h3>
-                        <p lang="en" class="desc">UI Designer</p>
+                        <div class="card-subject-wrapper">
+                            <h3 class="subject">Михаил Ермаков</h3>
+                            <p lang="en" class="desc">UI Designer</p>
+                        </div>
+                        
                     </li>
                 </ul>
             </div>
